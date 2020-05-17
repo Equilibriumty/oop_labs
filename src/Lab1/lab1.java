@@ -6,12 +6,12 @@ package Lab1;
  * C5 (9313 mod 5) = 3 (O2 - "+");
  * C7 (9313 mod 7) = 3 (i, j - long);
  **/
-public class lab1 {
+public class  lab1 {
 
     public static void main(String[] args) {
         double S = 0;
-        int a = 1, b = 1;
-        int m = 2, n = 2;
+        int a = 2, b = 2;
+        int m = 3, n = 3;
         int C = 1;
 
         if (a <= C && C <= n) {
