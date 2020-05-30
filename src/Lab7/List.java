@@ -8,18 +8,6 @@ class List {
         return firstElement;
     }
 
-    void addToBeggining(Stones data) {
-        ListElement a = new ListElement();
-        a.data = data;
-        if (firstElement == null) {
-            firstElement = a;
-            lastElement = a;
-        } else {
-            a.next = firstElement;
-            firstElement = a;
-        }
-    }
-
     void addToEnding(Stones data) {
         ListElement a = new ListElement();
         a.data = (Stones) data;

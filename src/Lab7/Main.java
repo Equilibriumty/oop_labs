@@ -24,6 +24,7 @@ public class Main {
         necklace1.add(s5);
         necklace.addAll(necklace1);
         Object[] mas = necklace.toArray();
+        System.out.println("Stones in collection:");
             for (Object object : mas) {
                 Stones s = (Stones) object;
                 System.out.println(s.getName());

@@ -59,7 +59,7 @@ public class StoneCollection <T> implements Set<T> {
 
     @Override
     public boolean contains(Object o) {
-        boolean flag = add((Stones) o);
+        boolean flag = add(o);
         if (flag) {
             s.DeleteElement((Stones) o);
         } return !flag;
